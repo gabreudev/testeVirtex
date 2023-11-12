@@ -15,7 +15,7 @@ public class ONUService {
 private final TextParse textParse;
 private final ONURepository repository;
 
-public List<ONU> listaONU(){
+public List<ONU> listarONU(){
     List<ONU> lista = repository.findAll();
     return lista;
     }
