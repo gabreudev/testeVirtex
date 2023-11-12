@@ -1,6 +1,5 @@
 package com.virtex.testeVirtex.Entities;
 
-import com.virtex.testeVirtex.Entities.Enums.State;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -19,6 +18,5 @@ public class ONU {
 
     private Long ont_id;
 
-    @Enumerated(EnumType.STRING)
-    private State state;
+    private String state;
 }
